@@ -1,5 +1,5 @@
 import React from "react";
-import Assets from "./assets/Assets1"
+import Assets from "./assets/Assets"
 
 const App = () => {
   return <div>

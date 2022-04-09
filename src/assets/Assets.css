@@ -28,17 +28,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 span,
 h1 {
     margin: 1rem 3rem;
+    text-align: center;
 }
 
 img {
+    display:block;
     border-radius: 50%;
+    margin:auto;
 }
 
 .section {
@@ -73,4 +76,9 @@ img {
 .button:hover {
     color: #fff;
     padding: 15px 50px;
+}
+.cw-logo{
+    height: 6rem;
+    width: 6rem;
+    
 }

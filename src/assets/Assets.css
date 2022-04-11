@@ -13,13 +13,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .main {
     border: 1px solid blue;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: 5px 5px #22577E, 10px 10px rgb(142, 194, 241), 15px 15px rgb(207, 228, 236);
     background-color: rgb(135, 158, 133);
 }
@@ -38,11 +38,7 @@ h1 {
     text-align: center;
 }
 
-img {
-    display:block;
-    border-radius: 50%;
-    margin:auto;
-}
+
 
 .section {
     display: flex;
@@ -55,11 +51,11 @@ img {
     width: 3.5rem;
 }
 
-.button {
-    background-color: rgb(196, 94, 94);
-}
 
-.button {
+    
+
+button {
+    background-color: rgb(196, 94, 94);
     margin: 3rem;
     padding: 10px 30px;
     text-align: center;
@@ -73,12 +69,28 @@ img {
     cursor: pointer;
 }
 
-.button:hover {
-    color: #fff;
-    padding: 15px 50px;
+button:hover {
+    color:black;
+    background-color:orange
 }
 .cw-logo{
     height: 6rem;
     width: 6rem;
     
 }
+
+img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+
+.profilePhoto{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: 0.15rem solid white;
+    display:block;
+    margin:auto;
+} 
